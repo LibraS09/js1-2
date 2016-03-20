@@ -1,5 +1,5 @@
 function pow(a, z) {
-  var resalt = a;
+  var result = a;
   if ( (a == 0) && (z <= 0) ) {
   console.log('is not defined');
   } else {
@@ -7,13 +7,13 @@ function pow(a, z) {
     console.log(1);
   } else {
     for (var i = 1; i < Math.abs(z); i++) {
-      resalt *= a;
+      result *= a;
     }
     if (z  > 0) {
-        console.log(resalt);
+        console.log(result);
     }
     if (z  < 0) {
-    console.log(1 / resalt);
+    console.log(1 / result);
     }
     }
   }
